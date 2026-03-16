@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -e
+python3 "$(dirname "$0")/failure_memory_hook.py" --hook commit-msg --commit-msg-file "$1"
